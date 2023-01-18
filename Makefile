@@ -50,10 +50,14 @@ all: $(NAME)
 $(NAME): $(OBJECTS)
 	ar rcs $(NAME) $(OBJECTS)
 
+# Compila todos los .c a .o IMPORTANTE: ESTE COMANDO ES OPCIONAL
+$(OBJECTS): $(SOURCE)
+	gcc $(CFLAGS) -c $< -o $@
+
 # Objetivo = borrar archivos (comando clean); Dependencias Ninguna; Orden a ejecutar rm -f
 # Borra todos los archivos .o (los archivos compilados listos para ser incluidos en la app)
 clean:
-	rm -f $(OBJS)
+	rm -f $(OBJECTS)
 
 # Borra el programa objetvo de este makefile (libft.a) y como dependencia usa clean
 # Resultado final = Borra todos los objetos y el archivo final libft.a
