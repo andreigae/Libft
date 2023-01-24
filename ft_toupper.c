@@ -6,12 +6,12 @@
 /*   By: agae-mat <agae-mat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 17:39:13 by agae-mat          #+#    #+#             */
-/*   Updated: 2023/01/18 17:47:53 by agae-mat         ###   ########.fr       */
+/*   Updated: 2023/01/24 12:18:43 by agae-mat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 int ft_toupper(int c){
-    
+    return c;
 };

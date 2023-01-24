@@ -6,12 +6,15 @@
 /*   By: agae-mat <agae-mat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 17:38:40 by agae-mat          #+#    #+#             */
-/*   Updated: 2023/01/18 17:47:10 by agae-mat         ###   ########.fr       */
+/*   Updated: 2023/01/24 12:56:32 by agae-mat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 void *ft_memchr(const void *s, int c, size_t n){
-    
+    n = 0;
+    c = 0;
+    s = 0;
+    return 0;
 };

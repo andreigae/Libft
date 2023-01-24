@@ -6,12 +6,12 @@
 /*   By: agae-mat <agae-mat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 17:39:11 by agae-mat          #+#    #+#             */
-/*   Updated: 2023/01/18 17:47:50 by agae-mat         ###   ########.fr       */
+/*   Updated: 2023/01/24 12:18:38 by agae-mat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 int ft_tolower(int c){
-    
+    return c;
 };

@@ -6,7 +6,7 @@
 #    By: agae-mat <agae-mat@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/18 17:39:17 by agae-mat          #+#    #+#              #
-#    Updated: 2023/01/18 17:39:22 by agae-mat         ###   ########.fr        #
+#    Updated: 2023/01/24 12:40:42 by agae-mat         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -49,10 +49,6 @@ all: $(NAME)
 
 $(NAME): $(OBJECTS)
 	ar rcs $(NAME) $(OBJECTS)
-
-# Compila todos los .c a .o IMPORTANTE: ESTE COMANDO ES OPCIONAL
-$(OBJECTS): $(SOURCE)
-	gcc $(CFLAGS) -c $< -o $@
 
 # Objetivo = borrar archivos (comando clean); Dependencias Ninguna; Orden a ejecutar rm -f
 # Borra todos los archivos .o (los archivos compilados listos para ser incluidos en la app)

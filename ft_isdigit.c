@@ -6,12 +6,12 @@
 /*   By: agae-mat <agae-mat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 17:38:36 by agae-mat          #+#    #+#             */
-/*   Updated: 2023/01/18 17:47:04 by agae-mat         ###   ########.fr       */
+/*   Updated: 2023/01/24 12:46:26 by agae-mat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 int		ft_isdigit(int c){
-    
+    return c;
 };

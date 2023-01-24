@@ -6,12 +6,12 @@
 /*   By: agae-mat <agae-mat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 17:38:16 by agae-mat          #+#    #+#             */
-/*   Updated: 2023/01/18 17:46:43 by agae-mat         ###   ########.fr       */
+/*   Updated: 2023/01/24 12:57:05 by agae-mat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 int ft_atoi(const char *str){
-    
+    return (int)str;
 };

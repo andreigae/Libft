@@ -6,12 +6,13 @@
 /*   By: agae-mat <agae-mat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 17:39:02 by agae-mat          #+#    #+#             */
-/*   Updated: 2023/01/18 17:47:38 by agae-mat         ###   ########.fr       */
+/*   Updated: 2023/01/24 12:55:46 by agae-mat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 size_t	ft_strlen(const char *str){
-
+    str = "";
+    return 0;
 };
