@@ -6,13 +6,27 @@
 /*   By: agae-mat <agae-mat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 17:39:02 by agae-mat          #+#    #+#             */
-/*   Updated: 2023/01/24 12:55:46 by agae-mat         ###   ########.fr       */
+/*   Updated: 2023/01/24 16:41:08 by agae-mat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 size_t	ft_strlen(const char *str){
-    str = "";
-    return 0;
+    size_t i = 0;
+    while (str[i] != '\0'){
+        i++;
+    }
+    return (i);
 };
+
+/************************ TEST ************************/
+/*
+#include <stdio.h>
+int main(){
+    char *str = "hola";
+    printf("%zu", ft_strlen(str));
+    return (0);
+}
+*/
+/*********************** END TEST **********************/
