@@ -6,12 +6,14 @@
 /*   By: agae-mat <agae-mat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 13:15:34 by agae-mat          #+#    #+#             */
-/*   Updated: 2023/01/24 13:15:48 by agae-mat         ###   ########.fr       */
+/*   Updated: 2023/01/24 13:34:04 by agae-mat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 char *ft_strmapi(char const *s, char (*f)(unsigned int, char)){
-    
+    s = 0;
+    f = 0;
+    return "";
 };

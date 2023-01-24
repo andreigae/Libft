@@ -6,12 +6,13 @@
 /*   By: agae-mat <agae-mat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 13:13:55 by agae-mat          #+#    #+#             */
-/*   Updated: 2023/01/24 13:14:08 by agae-mat         ###   ########.fr       */
+/*   Updated: 2023/01/24 13:32:12 by agae-mat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 void ft_putnbr_fd(int n, int fd){
-    
+    n = 0;
+    fd = 0;
 };

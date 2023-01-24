@@ -6,12 +6,14 @@
 /*   By: agae-mat <agae-mat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 13:17:14 by agae-mat          #+#    #+#             */
-/*   Updated: 2023/01/24 13:17:21 by agae-mat         ###   ########.fr       */
+/*   Updated: 2023/01/24 13:34:24 by agae-mat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 char *ft_strtrim(char const *s1, char const *set){
-    
+    s1 = 0;
+    set = 0;
+    return "";
 };

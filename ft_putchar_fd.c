@@ -6,12 +6,13 @@
 /*   By: agae-mat <agae-mat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 13:14:46 by agae-mat          #+#    #+#             */
-/*   Updated: 2023/01/24 13:14:56 by agae-mat         ###   ########.fr       */
+/*   Updated: 2023/01/24 13:31:35 by agae-mat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 void ft_putchar_fd(char c, int fd){
-
+    c = 0;
+    fd = 0;
 };
