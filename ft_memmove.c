@@ -6,7 +6,7 @@
 /*   By: agae-mat <agae-mat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 17:38:48 by agae-mat          #+#    #+#             */
-/*   Updated: 2023/01/24 21:20:52 by agae-mat         ###   ########.fr       */
+/*   Updated: 2023/01/24 21:23:16 by agae-mat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 }
 
 /************************ TEST ************************/
-
+/*
 #include <stdio.h>
 #include <string.h>
 
@@ -50,5 +50,5 @@ int main() {
     printf("La cadena movida es: %s\n", dest);
     return 0;
 }
-
+*/
 /*********************** END TEST **********************/
